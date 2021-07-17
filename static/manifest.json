@@ -1,0 +1,11 @@
+{
+	"manifest_version": 1,
+	"name": "DyteEditor",
+	"version": "1.0.0",
+	"description": "DYTOR,a editor for Dyte Company",
+	"browser_action": {
+		"default_icon": "images/icon.png"
+	},
+	"devtools_page": "index.html",
+	"content_security_policy": "script-src 'unsafe-inline'; object-src 'self';"
+}
